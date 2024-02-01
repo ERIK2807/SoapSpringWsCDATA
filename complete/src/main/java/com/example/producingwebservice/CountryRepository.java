@@ -40,8 +40,8 @@ public class CountryRepository {
 		countries.put(uk.getName(), uk);
 	}
 
-	public Country findCountry(String name) {
-		Assert.notNull(name, "The country's name must not be null");
-		return countries.get(name);
+	public Country findCountry(String name1) {
+		Assert.notNull(name1, "The country's name must not be null");
+		return countries.get(name1);
 	}
 }
